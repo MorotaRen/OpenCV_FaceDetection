@@ -1,0 +1,16 @@
+-----------------説明書-----------------
+●ファイル構成
+neg 	- はずれ画像
+pos 	- 正解画像
+vec 	- 画像まとめ
+cascade 	- 分類器収納用
+nglist.txt 	- はずれ画像のまとめ
+
+●CreateSamples.bat
+正解画像の様々な角度のサンプルを制作します。
+
+●Createcascade.bat
+カスケード分類器を制作します。
+
+●NGFileOutput.bat
+negに入っているファイルのパスを作成します。
